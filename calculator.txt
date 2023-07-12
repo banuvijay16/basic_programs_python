@@ -1,0 +1,28 @@
+#simple calculator
+print("enter 1 for add")
+print("enter 2 for sub")
+print("enter 3 for mul")
+print("enter 4 for divi")
+i=int(input("type ur choice"))
+if(i == 1):
+    print("enter 2 nos for addition")
+    n1=int(input("enter n1"))
+    n2=int(input("enter n2"))
+    print("ur addition result is", n1+n2)
+elif(i == 2):
+    print("enter 2 nos for subtraction")
+    n1 = int(input("enter n1"))
+    n2 = int(input("enter n2"))
+    print("ur subtraction result is", n1 - n2)
+elif(i == 3):
+    print("enter 2 nos for multiplicatio")
+    n1 = int(input("enter n1"))
+    n2 = int(input("enter n2"))
+    print("ur muliplication result is", n1 * n2)
+elif(i==4):
+    print("enter 2 nos for division")
+    n1 = int(input("enter n1"))
+    n2 = int(input("enter n2"))
+    print("ur division result is", n1 / n2)
+else:
+    print("enter correct choice")

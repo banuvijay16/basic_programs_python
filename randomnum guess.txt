@@ -1,0 +1,31 @@
+import random
+num = random.randint(1,20)
+chance = 1
+print("u will be given 4 chances")
+guess = int(input("can u guess"))
+while num != guess:
+    for chance in range(1,4):
+        if guess > num:
+            print("ur guess is higher")
+        else:
+            print("ur guess is lower")
+        guess = int(input("guess again"))
+        chance += 1
+    print("ur chance is over")
+    break
+print("ur guess is rite")
+
+
+
+output:
+
+u will be given 4 chances
+can u guess5
+ur guess is lower
+guess again10
+ur guess is lower
+guess again12
+ur guess is lower
+guess again13
+ur chance is over
+ur guess is rite

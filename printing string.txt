@@ -1,0 +1,26 @@
+message = input("enter any message")
+count = len(message)
+for i in range(count+1):
+    print(message[0:i])
+msg = (message[::-1])
+for j in range(count+1):
+    print(msg[0:j])
+
+output:
+enter any messagewelcome
+
+w
+we
+wel
+welc
+welco
+welcom
+welcome
+
+e
+em
+emo
+emoc
+emocl
+emocle
+emoclew

@@ -1,0 +1,16 @@
+method-1
+
+num = int(input("enter a number to print its factor"))
+for i in range(1,num+1):
+    a = num % i
+    if (a == 0):
+        print(num, "factors are", i)
+
+output:
+
+enter a number to print its factor8
+8 factors are 1
+8 factors are 2
+8 factors are 4
+8 factors are 8
+

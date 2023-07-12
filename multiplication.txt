@@ -1,0 +1,5 @@
+n = int (input("type a number for which multiplication table to be printed"))
+p= int (input("type the last number"))
+for i in range(1,p+1):
+    j = i * n
+    print(i,"x",n, "is", j)

@@ -1,0 +1,8 @@
+#reveral of a string and a number
+a = (input("enter any value"))
+b = (a[::-1])
+print("reversed value is", b)
+if (a == b):
+    print("palindrome")
+else:
+    print(" not palindrome")

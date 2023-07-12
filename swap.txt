@@ -1,0 +1,11 @@
+#swap of 2
+a = int(input("enter a\t"))
+b = int(input("enter b\t"))
+x = a
+a = b
+b = x
+print("now a is\t",a)
+print("now b is\t",b)
+
+
+
